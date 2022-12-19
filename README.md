@@ -20,6 +20,8 @@ I based my setup on this YouTube tutorial: https://youtu.be/bP0CX42dy3Y
 
    - https://askubuntu.com/a/1130666
 
+1. Install [`ffmpeg`](https://ffmpeg.org/) on the Pi
+1. Install [`node`](https://nodejs.org/) (version >= 18) on the Pi
 1. Plug in your DSLR via USB to the Pi
 1. Turn on your DSLR and test `gphoto2` by running `gphoto2 --capture-image` at the command line of the Pi. Your camera should take a picture!
 1. Install the [GCODE System Commands](https://plugins.octoprint.org/plugins/gcodesystemcommands/) OctoPrint plugin and configure a new GCODE command - `OCTO1` - to run `gphoto2 --capture-image`
